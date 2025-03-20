@@ -1,0 +1,1001 @@
+Patient_ID,Age,Gender,Admission_Type,Diagnosis,Readmission_Location,Num_Medications,Num_Outpatient_Visits,Num_Inpatient_Visits,Num_Emergency_Visits,Num_Diagnoses,A1C_Result,Num_Lab_Procedures,Readmitted
+1,69,Other,Emergency,Heart Disease,Urgent,2,4,1,1,5,,33,Yes
+2,32,Female,Urgent,Diabetes,,10,4,4,1,6,,81,No
+3,78,Female,Urgent,Heart Disease,,29,4,0,3,5,Normal,75,No
+4,38,Male,Elective,Diabetes,Out-patient,11,2,3,4,9,,77,Yes
+5,41,Female,Urgent,Diabetes,In-patient,25,3,4,1,3,,50,Yes
+6,20,Male,Elective,Injury,,20,3,4,1,3,,11,No
+7,39,Female,Elective,Heart Disease,In-patient,16,2,4,3,7,,95,Yes
+8,70,Female,Elective,Heart Disease,Out-patient,19,4,0,3,7,Normal,28,Yes
+9,19,Male,Urgent,Infection,,23,1,2,4,6,Normal,70,No
+10,47,Male,Emergency,Injury,,24,4,0,0,3,Abnormal,41,No
+11,55,Male,Elective,Infection,In-patient,11,4,2,0,7,,16,Yes
+12,19,Female,Emergency,Injury,,14,2,4,2,5,Abnormal,68,No
+13,81,Female,Emergency,Heart Disease,Urgent,2,3,4,1,7,Abnormal,99,Yes
+14,77,Other,Urgent,Diabetes,,23,4,3,4,2,,48,No
+15,38,Male,Emergency,Diabetes,,28,3,2,1,6,Normal,56,No
+16,50,Female,Emergency,Diabetes,Out-patient,5,0,4,4,8,Normal,64,Yes
+17,75,Female,Urgent,Diabetes,,27,3,1,4,1,,59,No
+18,39,Male,Elective,Diabetes,In-patient,5,1,3,4,4,,90,Yes
+19,66,Other,Emergency,Infection,,19,1,0,1,1,Normal,62,No
+20,76,Male,Urgent,Injury,In-patient,21,4,3,3,1,,76,Yes
+21,59,Other,Emergency,Heart Disease,,12,3,1,1,8,,11,No
+22,77,Female,Emergency,Infection,,18,4,2,4,7,,89,No
+23,32,Other,Elective,Injury,Urgent,4,2,0,2,1,Normal,18,Yes
+24,79,Female,Emergency,Diabetes,,22,1,0,0,2,Abnormal,19,No
+25,79,Male,Urgent,Injury,Urgent,17,4,2,4,4,Abnormal,87,Yes
+26,64,Male,Emergency,Injury,,10,2,3,2,1,,55,No
+27,79,Male,Elective,Diabetes,,20,4,4,3,3,Normal,82,No
+28,68,Other,Elective,Diabetes,In-patient,6,3,3,4,8,,26,Yes
+29,72,Female,Urgent,Diabetes,,25,3,1,2,8,Normal,6,No
+30,81,Male,Elective,Heart Disease,,14,3,4,4,8,,4,No
+31,20,Male,Emergency,Diabetes,In-patient,35,3,3,1,6,,29,Yes
+32,68,Female,Elective,Heart Disease,,35,0,2,2,6,Normal,59,No
+33,24,Male,Urgent,Diabetes,Urgent,35,2,1,1,5,,98,Yes
+34,38,Female,Elective,Heart Disease,In-patient,35,2,1,1,9,,17,Yes
+35,56,Female,Elective,Injury,In-patient,35,3,1,2,4,Abnormal,43,Yes
+36,35,Female,Elective,Infection,,35,0,4,0,7,Abnormal,80,No
+37,21,Female,Urgent,Injury,,35,3,0,2,1,Normal,66,No
+38,77,Female,Elective,Injury,Emergency,35,0,4,0,9,,34,Yes
+39,31,Other,Elective,Diabetes,,35,3,3,4,7,Normal,8,No
+40,26,Male,Emergency,Heart Disease,Emergency,35,1,0,4,9,Normal,13,Yes
+41,70,Other,Urgent,Infection,,11,1,3,2,7,Normal,8,No
+42,19,Male,Elective,Diabetes,Emergency,21,4,0,4,2,,94,Yes
+43,77,Other,Urgent,Diabetes,In-patient,12,3,4,3,6,,96,Yes
+44,61,Female,Elective,Diabetes,,5,2,1,1,4,Normal,94,No
+45,25,Male,Elective,Injury,In-patient,23,4,2,1,3,,65,Yes
+46,64,Male,Elective,Heart Disease,In-patient,9,1,1,0,2,Normal,43,Yes
+47,52,Other,Emergency,Heart Disease,,27,3,4,4,6,,39,No
+48,53,Other,Emergency,Infection,In-patient,25,4,0,0,8,,81,Yes
+49,67,Male,Emergency,Heart Disease,Out-patient,9,3,1,1,6,Abnormal,59,Yes
+50,21,Other,Urgent,Heart Disease,,22,1,4,1,9,Normal,84,No
+51,150,Other,Urgent,Diabetes,In-patient,10,4,3,4,5,Abnormal,88,Yes
+52,150,Other,Emergency,Diabetes,In-patient,22,1,2,3,2,Abnormal,86,Yes
+53,150,Female,Urgent,Injury,In-patient,19,0,1,3,8,Normal,93,Yes
+54,150,Female,Elective,Diabetes,Out-patient,1,1,0,4,9,Normal,86,Yes
+55,150,Other,Elective,Diabetes,Urgent,7,3,3,4,4,,44,Yes
+56,150,Other,Elective,Diabetes,In-patient,4,2,4,0,6,Normal,9,Yes
+57,150,Female,Emergency,Diabetes,Urgent,1,1,2,4,8,Abnormal,37,Yes
+58,150,Female,Urgent,Injury,Emergency,15,2,0,3,9,Abnormal,74,Yes
+59,150,Male,Emergency,Diabetes,,8,0,4,4,5,Normal,36,No
+60,150,Male,Urgent,Infection,In-patient,12,4,4,0,6,Abnormal,92,Yes
+61,31,Female,Elective,Infection,Urgent,22,4,1,0,4,,28,Yes
+62,65,Other,Emergency,Infection,,22,2,1,0,5,Abnormal,42,No
+63,32,Other,Urgent,Infection,Out-patient,18,4,0,0,7,,43,Yes
+64,79,Other,Urgent,Diabetes,Out-patient,15,1,4,2,9,Abnormal,85,Yes
+65,57,Other,Elective,Infection,In-patient,17,2,1,4,6,,88,Yes
+66,70,Male,Emergency,Diabetes,In-patient,29,3,2,1,6,,42,Yes
+67,41,Female,Emergency,Injury,Urgent,14,1,2,4,8,Normal,66,Yes
+68,43,Other,Emergency,Infection,Emergency,14,1,4,2,4,,55,Yes
+69,77,Male,Elective,Heart Disease,,18,1,1,0,3,Normal,72,No
+70,58,Other,Emergency,Infection,,20,3,0,2,7,Abnormal,48,No
+71,46,Female,Elective,Infection,,18,0,0,3,5,Abnormal,91,No
+72,32,Male,Elective,Diabetes,,16,4,0,3,2,,22,No
+73,62,Female,Elective,Infection,,1,2,2,4,2,,27,No
+74,82,Female,Urgent,Heart Disease,Out-patient,23,0,1,4,6,Abnormal,93,Yes
+75,26,Male,Emergency,Diabetes,Out-patient,27,2,1,1,8,Abnormal,67,Yes
+76,18,Male,Emergency,Diabetes,Urgent,11,4,2,1,1,Normal,13,Yes
+77,25,Male,Elective,Injury,In-patient,15,3,0,3,6,Normal,45,Yes
+78,80,Male,Elective,Injury,In-patient,12,1,0,0,2,Abnormal,10,Yes
+79,28,Male,Emergency,Infection,,8,1,4,2,2,Abnormal,9,No
+80,25,Male,Elective,Injury,,22,3,3,1,7,,54,No
+81,52,Male,Emergency,Injury,Out-patient,20,0,1,1,1,,27,Yes
+82,52,Other,Urgent,Injury,Out-patient,6,0,1,0,6,,34,Yes
+83,50,Female,Elective,Diabetes,Urgent,3,2,1,0,7,Normal,1,Yes
+84,22,Male,Emergency,Diabetes,,28,3,3,4,8,Abnormal,32,No
+85,58,Other,Elective,Diabetes,,24,0,4,2,7,,89,No
+86,45,Other,Emergency,Injury,Out-patient,26,3,3,0,6,Normal,93,Yes
+87,24,Other,Emergency,Diabetes,,13,4,0,1,9,Normal,71,No
+88,29,Female,Elective,Injury,Out-patient,13,1,0,1,3,,67,Yes
+89,51,Male,Urgent,Diabetes,,2,1,1,3,6,Abnormal,84,No
+90,50,Other,Emergency,Diabetes,,5,1,2,0,4,,20,No
+91,65,Female,Emergency,Heart Disease,Emergency,17,3,1,4,2,Abnormal,94,Yes
+92,40,Female,Emergency,Infection,,6,3,2,2,1,,35,No
+93,79,Female,Urgent,Injury,,2,2,3,4,1,Normal,99,No
+94,54,Other,Urgent,Heart Disease,In-patient,4,1,0,1,3,,91,Yes
+95,61,Male,Elective,Diabetes,,22,2,2,4,4,,90,No
+96,52,Other,Urgent,Injury,In-patient,26,1,3,1,2,,78,Yes
+97,82,Other,Elective,Diabetes,,11,2,0,1,1,Normal,17,No
+98,64,Male,Elective,Infection,Emergency,8,2,2,1,4,,18,Yes
+99,20,Male,Urgent,Heart Disease,In-patient,12,4,1,1,7,Abnormal,45,Yes
+100,18,Male,Elective,Infection,,8,2,1,1,6,,93,No
+101,22,Female,Urgent,Heart Disease,,11,3,1,3,6,,84,No
+102,31,Male,Elective,Diabetes,Emergency,22,2,3,4,9,,53,Yes
+103,44,Other,Urgent,Infection,,20,1,1,3,2,Normal,91,No
+104,26,Male,Urgent,Infection,,8,2,4,3,4,,82,No
+105,32,Other,Elective,Diabetes,,29,0,0,0,5,,68,No
+106,59,Female,Emergency,Infection,Emergency,8,1,3,0,1,Normal,65,Yes
+107,68,Other,Elective,Injury,Out-patient,26,0,1,0,8,Abnormal,1,Yes
+108,80,Other,Urgent,Heart Disease,In-patient,17,1,0,2,8,,58,Yes
+109,69,Male,Emergency,Heart Disease,,20,3,2,0,6,Abnormal,26,No
+110,21,Male,Elective,Heart Disease,,20,3,1,4,5,,20,No
+111,40,Other,Elective,Injury,In-patient,23,3,0,3,8,Normal,87,Yes
+112,32,Male,Elective,Heart Disease,Out-patient,16,0,4,4,3,,10,Yes
+113,60,Female,Emergency,Diabetes,,14,4,2,0,3,Normal,59,No
+114,46,Female,Urgent,Infection,,11,1,4,2,2,,75,No
+115,53,Male,Elective,Injury,,7,3,0,2,5,,41,No
+116,30,Female,Elective,Heart Disease,,16,1,4,3,3,,5,No
+117,49,Male,Elective,Diabetes,Emergency,13,0,0,4,3,,65,Yes
+118,76,Other,Elective,Infection,,27,4,0,1,6,Abnormal,17,No
+119,45,Other,Elective,Infection,,15,0,4,4,8,,22,No
+120,83,Female,Urgent,Injury,Urgent,24,1,0,0,2,Abnormal,98,Yes
+121,59,Male,Urgent,Injury,Urgent,16,4,1,1,4,Normal,41,Yes
+122,62,Male,Elective,Injury,,27,4,0,2,7,Normal,93,No
+123,79,Female,Emergency,Diabetes,Out-patient,21,0,3,3,1,Abnormal,68,Yes
+124,74,Other,Urgent,Diabetes,,23,3,0,3,1,Normal,69,No
+125,23,Female,Emergency,Injury,,24,1,3,2,7,Normal,11,No
+126,45,Other,Urgent,Heart Disease,In-patient,9,2,0,0,7,,56,Yes
+127,45,Male,Elective,Infection,Urgent,3,2,0,2,1,,51,Yes
+128,61,Other,Urgent,Infection,,19,0,4,0,1,,21,No
+129,47,Female,Elective,Diabetes,In-patient,20,1,1,1,4,Abnormal,99,Yes
+130,79,Male,Urgent,Infection,,5,1,1,2,5,Abnormal,76,No
+131,79,Female,Elective,Heart Disease,,10,0,2,0,5,Normal,26,No
+132,18,Female,Elective,Infection,,17,1,4,1,4,,19,No
+133,44,Other,Elective,Diabetes,In-patient,15,3,4,2,8,Abnormal,60,Yes
+134,79,Female,Elective,Diabetes,,23,0,1,3,7,Abnormal,71,No
+135,20,Other,Emergency,Heart Disease,,25,3,4,2,9,,47,No
+136,44,Male,Elective,Heart Disease,,8,1,1,4,7,Abnormal,71,No
+137,26,Other,Emergency,Infection,In-patient,15,0,4,2,1,,26,Yes
+138,79,Male,Emergency,Infection,,21,1,0,4,7,Normal,40,No
+139,54,Other,Elective,Diabetes,,14,0,1,1,1,Normal,5,No
+140,68,Female,Emergency,Heart Disease,,20,1,1,2,7,Normal,21,No
+141,61,Other,Urgent,Heart Disease,In-patient,28,3,3,1,8,,78,Yes
+142,41,Other,Elective,Heart Disease,,7,3,4,1,9,Abnormal,4,No
+143,76,Male,Emergency,Infection,,21,1,4,0,3,,23,No
+144,49,Female,Elective,Heart Disease,Urgent,23,0,1,1,4,Normal,84,Yes
+145,69,Other,Elective,Diabetes,Out-patient,12,2,0,1,4,Normal,15,Yes
+146,79,Female,Elective,Diabetes,,17,3,0,2,9,Abnormal,93,No
+147,75,Other,Emergency,Infection,,17,3,0,2,7,Abnormal,8,No
+148,69,Other,Urgent,Injury,,10,2,4,3,3,,41,No
+149,29,Female,Urgent,Infection,Out-patient,29,1,3,0,5,Normal,19,Yes
+150,56,Other,Emergency,Injury,In-patient,19,0,1,1,7,Abnormal,46,Yes
+151,19,Female,Elective,Heart Disease,,14,1,2,0,8,,28,No
+152,20,Other,Emergency,Infection,Emergency,11,4,3,4,1,Normal,91,Yes
+153,73,Male,Emergency,Diabetes,,2,3,2,1,2,Abnormal,68,No
+154,76,Female,Emergency,Heart Disease,,18,4,3,0,7,Abnormal,15,No
+155,19,Other,Elective,Diabetes,Urgent,7,3,0,3,2,,99,Yes
+156,19,Other,Emergency,Heart Disease,,12,3,4,3,7,Normal,37,No
+157,71,Male,Elective,Infection,Emergency,26,4,2,1,9,Normal,1,Yes
+158,18,Female,Emergency,Injury,Out-patient,2,4,3,4,2,Abnormal,67,Yes
+159,36,Other,Urgent,Heart Disease,,27,1,4,3,7,Normal,24,No
+160,19,Male,Emergency,Injury,Out-patient,20,4,2,3,4,,27,Yes
+161,70,Other,Emergency,Heart Disease,,18,1,1,4,2,Abnormal,40,No
+162,61,Female,Urgent,Diabetes,Emergency,6,1,3,0,7,Abnormal,63,Yes
+163,49,Other,Elective,Diabetes,,24,1,1,3,5,,61,No
+164,49,Other,Elective,Heart Disease,,10,3,0,2,1,,36,No
+165,72,Other,Emergency,Injury,,20,3,1,3,5,Normal,98,No
+166,73,Other,Urgent,Infection,Urgent,15,4,1,0,3,Normal,93,Yes
+167,34,Male,Elective,Infection,,5,3,3,0,7,,24,No
+168,55,Male,Emergency,Diabetes,In-patient,20,4,0,1,6,,24,Yes
+169,41,Female,Urgent,Infection,In-patient,3,3,1,2,8,,4,Yes
+170,28,Male,Elective,Diabetes,Out-patient,5,0,4,0,5,Normal,67,Yes
+171,33,Male,Elective,Infection,In-patient,25,0,2,4,2,,34,Yes
+172,76,Female,Urgent,Heart Disease,Emergency,8,4,1,2,9,Abnormal,57,Yes
+173,20,Male,Urgent,Diabetes,,8,3,0,2,8,Abnormal,49,No
+174,37,Male,Urgent,Diabetes,Urgent,8,3,1,4,6,Normal,87,Yes
+175,76,Female,Urgent,Heart Disease,,12,1,2,3,7,Normal,53,No
+176,53,Female,Emergency,Diabetes,,24,2,0,4,9,Normal,23,No
+177,36,Female,Urgent,Infection,Urgent,23,4,3,4,7,,69,Yes
+178,84,Other,Elective,Infection,,8,2,0,3,3,Abnormal,95,No
+179,36,Other,Elective,Diabetes,,11,2,3,3,6,Abnormal,53,No
+180,37,Female,Emergency,Infection,Urgent,14,4,0,3,7,Abnormal,62,Yes
+181,69,Female,Elective,Injury,,8,3,2,3,2,Normal,41,No
+182,50,Female,Elective,Diabetes,Out-patient,29,4,2,3,3,Abnormal,57,Yes
+183,57,Other,Urgent,Heart Disease,Emergency,24,2,0,4,4,,60,Yes
+184,56,Other,Elective,Injury,Urgent,28,3,1,1,6,,54,Yes
+185,18,Male,Emergency,Diabetes,,10,0,2,1,1,Abnormal,70,No
+186,28,Male,Urgent,Heart Disease,,7,4,3,0,9,Normal,57,No
+187,74,Female,Urgent,Infection,,28,4,3,1,5,Abnormal,10,No
+188,67,Other,Emergency,Heart Disease,,17,3,4,1,7,,40,No
+189,40,Other,Urgent,Injury,Emergency,4,0,3,4,9,,7,Yes
+190,48,Other,Urgent,Infection,Emergency,29,0,4,3,9,,38,Yes
+191,59,Female,Emergency,Diabetes,,13,3,0,3,1,Abnormal,85,No
+192,24,Male,Urgent,Infection,In-patient,4,1,0,4,1,,61,Yes
+193,33,Female,Emergency,Diabetes,,5,4,0,1,3,Normal,84,No
+194,77,Male,Emergency,Diabetes,Urgent,26,4,1,4,6,Abnormal,3,Yes
+195,19,Male,Elective,Heart Disease,In-patient,22,2,1,0,2,Abnormal,51,Yes
+196,18,Female,Elective,Heart Disease,Emergency,4,3,4,3,1,,86,Yes
+197,65,Male,Urgent,Heart Disease,Out-patient,18,2,3,2,1,,47,Yes
+198,29,Male,Urgent,Injury,Emergency,6,2,3,0,5,Normal,68,Yes
+199,54,Other,Emergency,Injury,,24,0,0,0,4,Abnormal,92,No
+200,49,Male,Urgent,Heart Disease,,24,4,2,4,1,,76,No
+201,26,Female,Emergency,Injury,Emergency,23,2,1,1,4,Normal,38,Yes
+202,36,Female,Emergency,Infection,,22,0,1,3,3,,36,No
+203,65,Male,Urgent,Infection,Urgent,2,3,0,2,2,Abnormal,41,Yes
+204,20,Other,Emergency,Injury,Out-patient,23,2,1,0,9,,69,Yes
+205,37,Other,Elective,Injury,Emergency,11,4,0,2,1,Abnormal,13,Yes
+206,41,Male,Urgent,Infection,Urgent,28,2,4,1,7,,87,Yes
+207,71,Male,Elective,Diabetes,,14,3,3,1,4,Abnormal,58,No
+208,50,Female,Urgent,Infection,Urgent,5,2,2,2,5,Normal,50,Yes
+209,41,Male,Emergency,Infection,,6,4,3,3,5,Abnormal,30,No
+210,53,Other,Urgent,Injury,Urgent,10,0,3,1,1,Normal,62,Yes
+211,55,Male,Elective,Infection,Emergency,8,4,4,2,6,Abnormal,25,Yes
+212,42,Female,Emergency,Injury,,14,0,1,0,9,Normal,27,No
+213,35,Female,Urgent,Injury,Emergency,24,1,2,2,2,,51,Yes
+214,83,Female,Urgent,Heart Disease,Urgent,3,4,1,2,7,Abnormal,78,Yes
+215,71,Female,Urgent,Infection,,12,4,3,4,6,,57,No
+216,52,Female,Elective,Diabetes,,16,3,0,1,5,Normal,47,No
+217,78,Male,Elective,Heart Disease,,28,2,3,3,4,Abnormal,39,No
+218,58,Male,Urgent,Injury,Urgent,23,0,1,3,4,Abnormal,16,Yes
+219,50,Male,Emergency,Injury,Emergency,17,0,3,4,6,,22,Yes
+220,50,Male,Emergency,Diabetes,,1,3,0,3,4,Abnormal,85,No
+221,31,Female,Elective,Injury,,23,3,4,2,5,,54,No
+222,38,Other,Emergency,Infection,In-patient,10,2,1,4,6,,21,Yes
+223,65,Male,Elective,Heart Disease,Emergency,25,2,3,0,5,Abnormal,72,Yes
+224,37,Other,Urgent,Injury,,23,4,1,1,7,,16,No
+225,25,Male,Elective,Injury,,10,1,4,1,9,,59,No
+226,24,Male,Elective,Diabetes,,21,2,3,1,7,,31,No
+227,84,Other,Urgent,Infection,,24,3,3,2,7,,42,No
+228,34,Female,Emergency,Injury,Out-patient,2,2,1,0,4,,74,Yes
+229,50,Male,Elective,Diabetes,Emergency,9,0,1,4,1,,32,Yes
+230,65,Male,Elective,Injury,In-patient,22,1,0,4,8,Normal,59,Yes
+231,76,Male,Urgent,Diabetes,Urgent,13,4,4,1,4,,34,Yes
+232,39,Other,Emergency,Diabetes,,25,0,0,0,1,Normal,9,No
+233,47,Female,Elective,Infection,Out-patient,16,0,3,0,5,Normal,81,Yes
+234,55,Other,Urgent,Injury,,18,1,1,0,8,,11,No
+235,68,Other,Elective,Infection,Emergency,19,4,3,3,4,,96,Yes
+236,71,Female,Urgent,Diabetes,Emergency,12,3,3,3,8,Normal,10,Yes
+237,25,Other,Emergency,Heart Disease,Emergency,8,4,2,1,8,Abnormal,86,Yes
+238,44,Female,Emergency,Injury,,17,2,2,0,3,Abnormal,17,No
+239,44,Male,Emergency,Heart Disease,In-patient,15,0,3,0,9,,68,Yes
+240,38,Female,Emergency,Injury,,10,2,1,4,3,,48,No
+241,47,Male,Elective,Infection,,15,3,3,4,1,Abnormal,52,No
+242,45,Other,Elective,Infection,Emergency,15,2,2,1,2,,25,Yes
+243,81,Other,Emergency,Infection,,23,4,1,0,6,,21,No
+244,78,Male,Emergency,Infection,Urgent,7,2,3,1,2,Abnormal,65,Yes
+245,65,Other,Emergency,Infection,,13,3,4,4,6,Abnormal,63,No
+246,36,Female,Elective,Heart Disease,Out-patient,17,3,4,4,1,,89,Yes
+247,21,Male,Emergency,Infection,,9,3,3,3,1,Normal,51,No
+248,52,Other,Emergency,Diabetes,,8,4,1,1,5,,36,No
+249,81,Male,Emergency,Diabetes,Emergency,20,3,3,1,9,Normal,81,Yes
+250,66,Female,Urgent,Heart Disease,In-patient,26,0,3,0,8,Abnormal,88,Yes
+251,34,Female,Emergency,Injury,Emergency,27,3,2,0,3,,66,Yes
+252,61,Other,Urgent,Diabetes,Out-patient,21,2,4,3,3,Abnormal,15,Yes
+253,47,Female,Urgent,Injury,,18,2,2,2,1,,96,No
+254,63,Male,Emergency,Heart Disease,,13,2,2,2,3,,39,No
+255,23,Female,Urgent,Injury,,16,4,3,2,1,Abnormal,70,No
+256,54,Male,Emergency,Injury,,9,2,2,1,8,Abnormal,1,No
+257,41,Male,Elective,Injury,Out-patient,12,4,4,1,1,Abnormal,23,Yes
+258,63,Female,Elective,Injury,,12,4,2,4,5,,39,No
+259,70,Other,Elective,Heart Disease,Emergency,6,3,4,1,9,,57,Yes
+260,77,Female,Elective,Diabetes,,19,0,2,1,7,Normal,81,No
+261,80,Male,Urgent,Infection,Out-patient,28,3,4,1,4,Abnormal,34,Yes
+262,49,Male,Emergency,Injury,Urgent,7,3,2,3,9,Normal,41,Yes
+263,50,Female,Emergency,Diabetes,Emergency,25,4,2,1,9,,93,Yes
+264,84,Other,Emergency,Diabetes,Emergency,3,4,1,0,2,Normal,73,Yes
+265,35,Other,Elective,Heart Disease,Emergency,16,2,4,0,6,Normal,13,Yes
+266,42,Male,Elective,Diabetes,,18,2,4,4,4,,70,No
+267,71,Male,Emergency,Heart Disease,In-patient,16,3,4,3,8,,6,Yes
+268,75,Other,Elective,Injury,,23,1,0,0,7,Abnormal,84,No
+269,84,Female,Emergency,Injury,,7,1,2,3,7,Normal,52,No
+270,63,Male,Emergency,Infection,Out-patient,4,2,4,3,9,,3,Yes
+271,41,Male,Emergency,Infection,,27,1,0,4,5,,81,No
+272,49,Other,Emergency,Infection,,25,2,1,3,6,Normal,63,No
+273,64,Female,Emergency,Diabetes,,8,4,4,1,1,,49,No
+274,40,Other,Emergency,Injury,In-patient,13,3,4,3,6,Abnormal,76,Yes
+275,83,Female,Emergency,Heart Disease,Urgent,13,0,0,4,2,Abnormal,47,Yes
+276,44,Female,Elective,Infection,Urgent,17,3,2,4,6,Normal,55,Yes
+277,19,Female,Emergency,Heart Disease,Out-patient,17,2,1,4,9,Abnormal,64,Yes
+278,34,Male,Emergency,Heart Disease,,5,2,4,0,8,,65,No
+279,50,Other,Elective,Infection,,6,3,2,1,9,,81,No
+280,26,Other,Elective,Injury,,19,2,1,0,8,,67,No
+281,60,Female,Elective,Infection,,13,1,3,2,3,,90,No
+282,65,Male,Emergency,Heart Disease,,25,1,3,1,8,,15,No
+283,56,Male,Urgent,Infection,,28,2,1,3,6,Abnormal,32,No
+284,59,Other,Urgent,Heart Disease,Out-patient,26,2,0,4,6,Abnormal,96,Yes
+285,43,Male,Elective,Heart Disease,,14,1,1,2,6,,68,No
+286,67,Male,Urgent,Infection,,22,2,1,1,3,Normal,18,No
+287,42,Female,Elective,Diabetes,,4,2,0,0,1,,83,No
+288,41,Male,Emergency,Infection,Urgent,28,3,0,4,4,,43,Yes
+289,30,Female,Urgent,Diabetes,,7,0,2,0,6,Normal,35,No
+290,77,Other,Emergency,Heart Disease,,8,1,2,1,2,Normal,78,No
+291,24,Male,Urgent,Heart Disease,Emergency,25,3,0,1,7,,58,Yes
+292,74,Other,Emergency,Diabetes,,13,0,3,2,7,Abnormal,33,No
+293,53,Other,Urgent,Heart Disease,In-patient,27,2,3,3,4,,14,Yes
+294,62,Male,Emergency,Diabetes,Emergency,6,2,1,0,4,Abnormal,34,Yes
+295,37,Male,Emergency,Diabetes,,6,3,4,2,1,Abnormal,61,No
+296,82,Other,Urgent,Heart Disease,,24,2,1,4,2,Normal,4,No
+297,25,Male,Emergency,Injury,Out-patient,28,4,1,3,9,,88,Yes
+298,33,Female,Emergency,Diabetes,,21,3,4,2,8,,59,No
+299,31,Female,Emergency,Infection,,3,0,0,0,8,Abnormal,29,No
+300,32,Male,Urgent,Infection,Emergency,28,3,3,1,9,Abnormal,83,Yes
+301,83,Other,Urgent,Heart Disease,In-patient,3,1,1,4,7,,6,Yes
+302,49,Male,Emergency,Injury,,13,3,4,0,9,,97,No
+303,80,Male,Emergency,Heart Disease,Urgent,22,2,2,3,2,,49,Yes
+304,68,Other,Urgent,Injury,,2,2,1,3,6,Normal,40,No
+305,42,Other,Urgent,Diabetes,,16,4,3,1,3,,83,No
+306,75,Female,Emergency,Diabetes,,22,4,0,1,6,,65,No
+307,80,Other,Emergency,Diabetes,,29,4,1,4,3,Abnormal,69,No
+308,79,Female,Emergency,Diabetes,Urgent,6,0,1,4,8,,27,Yes
+309,39,Other,Elective,Infection,,8,4,4,1,4,Abnormal,80,No
+310,75,Male,Urgent,Infection,Out-patient,23,0,2,1,6,Abnormal,6,Yes
+311,75,Female,Elective,Heart Disease,,8,4,2,3,9,Normal,13,No
+312,66,Female,Urgent,Injury,,25,0,0,1,2,,64,No
+313,69,Female,Urgent,Diabetes,Out-patient,6,3,3,2,2,,62,Yes
+314,59,Male,Urgent,Diabetes,,14,3,0,0,7,Abnormal,99,No
+315,32,Male,Urgent,Injury,Emergency,3,2,1,1,2,Normal,19,Yes
+316,71,Male,Urgent,Injury,In-patient,10,0,1,4,2,Normal,76,Yes
+317,77,Male,Urgent,Heart Disease,,3,1,2,2,4,,80,No
+318,25,Male,Urgent,Injury,,27,2,3,4,9,Abnormal,43,No
+319,70,Female,Elective,Diabetes,,12,3,4,2,8,,74,No
+320,77,Male,Emergency,Diabetes,,17,0,3,1,2,,89,No
+321,22,Female,Emergency,Diabetes,Urgent,27,4,1,0,8,,20,Yes
+322,23,Male,Elective,Diabetes,,29,1,4,4,4,,95,No
+323,64,Other,Elective,Diabetes,,5,3,3,2,2,Abnormal,68,No
+324,72,Female,Elective,Heart Disease,,20,2,3,3,7,Normal,44,No
+325,57,Other,Elective,Diabetes,,25,0,4,1,6,,23,No
+326,69,Female,Urgent,Heart Disease,,9,1,1,0,5,,2,No
+327,33,Other,Emergency,Diabetes,Emergency,21,0,3,1,1,,22,Yes
+328,30,Male,Urgent,Infection,,26,4,4,3,2,,57,No
+329,47,Male,Emergency,Infection,Urgent,20,2,1,0,8,Normal,72,Yes
+330,36,Male,Emergency,Infection,,7,0,4,3,1,Normal,7,No
+331,34,Female,Elective,Infection,,22,3,4,1,3,Normal,78,No
+332,80,Other,Urgent,Heart Disease,,4,2,3,2,2,Normal,56,No
+333,36,Male,Elective,Heart Disease,In-patient,13,3,1,1,5,,67,Yes
+334,75,Other,Urgent,Injury,,13,0,3,1,4,Abnormal,16,No
+335,72,Other,Emergency,Diabetes,Urgent,10,2,0,1,7,Normal,83,Yes
+336,79,Male,Elective,Infection,Emergency,18,3,0,4,5,Normal,51,Yes
+337,40,Male,Elective,Heart Disease,,17,4,1,3,8,,82,No
+338,26,Other,Emergency,Diabetes,Urgent,20,4,4,3,4,,80,Yes
+339,29,Male,Emergency,Diabetes,,20,0,3,3,6,,72,No
+340,18,Male,Emergency,Heart Disease,,13,2,3,4,4,,97,No
+341,75,Male,Elective,Infection,Emergency,17,1,1,2,2,Abnormal,12,Yes
+342,18,Female,Urgent,Injury,,22,2,1,1,1,Abnormal,53,No
+343,51,Other,Elective,Diabetes,,4,4,0,2,1,Normal,75,No
+344,65,Other,Urgent,Injury,Emergency,1,3,2,4,8,Abnormal,5,Yes
+345,18,Female,Elective,Infection,In-patient,1,1,1,3,4,,27,Yes
+346,33,Other,Elective,Infection,Urgent,15,0,2,1,5,Normal,12,Yes
+347,78,Male,Emergency,Injury,Urgent,13,1,1,0,8,Abnormal,17,Yes
+348,81,Other,Urgent,Infection,Out-patient,17,0,4,0,7,Normal,6,Yes
+349,80,Male,Elective,Diabetes,In-patient,24,1,4,2,8,,97,Yes
+350,39,Female,Elective,Injury,,26,0,0,3,8,Normal,5,No
+351,84,Male,Emergency,Infection,Urgent,8,0,0,0,6,,57,Yes
+352,43,Other,Emergency,Injury,Emergency,18,1,2,2,2,Abnormal,28,Yes
+353,33,Other,Urgent,Diabetes,,27,1,1,4,6,,78,No
+354,68,Other,Elective,Infection,,13,0,3,2,1,Normal,69,No
+355,74,Female,Urgent,Diabetes,Emergency,23,4,0,2,1,,59,Yes
+356,46,Female,Elective,Infection,In-patient,14,1,3,2,3,Normal,33,Yes
+357,64,Other,Urgent,Heart Disease,,8,2,3,1,3,Abnormal,62,No
+358,79,Male,Emergency,Infection,Emergency,8,3,1,2,5,Normal,50,Yes
+359,33,Female,Elective,Injury,In-patient,27,0,2,2,1,Normal,19,Yes
+360,65,Other,Urgent,Infection,,26,0,1,1,6,,86,No
+361,56,Other,Emergency,Diabetes,Emergency,15,3,0,1,7,Abnormal,69,Yes
+362,50,Female,Emergency,Diabetes,,27,4,3,4,3,Normal,66,No
+363,40,Female,Urgent,Infection,Urgent,13,3,1,3,4,,94,Yes
+364,27,Female,Elective,Injury,,7,1,1,0,3,,47,No
+365,51,Male,Elective,Heart Disease,,5,3,1,0,1,,39,No
+366,69,Male,Emergency,Injury,,17,0,0,2,8,,68,No
+367,27,Other,Elective,Heart Disease,In-patient,28,3,2,4,2,Normal,33,Yes
+368,36,Female,Elective,Diabetes,,25,2,1,2,1,,13,No
+369,75,Male,Elective,Injury,In-patient,29,1,0,0,8,Abnormal,84,Yes
+370,18,Female,Emergency,Heart Disease,,16,3,3,1,7,,54,No
+371,21,Other,Urgent,Infection,,23,0,4,3,7,,7,No
+372,33,Male,Elective,Diabetes,,2,1,0,4,4,,79,No
+373,41,Male,Emergency,Infection,Out-patient,22,0,4,1,9,Abnormal,87,Yes
+374,19,Male,Emergency,Diabetes,Emergency,18,4,1,3,6,,14,Yes
+375,49,Other,Urgent,Injury,,17,2,1,4,2,Abnormal,87,No
+376,41,Female,Elective,Injury,Urgent,7,4,0,4,1,,19,Yes
+377,29,Male,Elective,Diabetes,Urgent,13,2,4,0,1,,54,Yes
+378,67,Other,Urgent,Diabetes,Urgent,18,3,1,1,9,Abnormal,93,Yes
+379,52,Female,Urgent,Diabetes,,29,1,3,4,4,Normal,20,No
+380,50,Other,Emergency,Injury,In-patient,14,3,2,4,5,,29,Yes
+381,50,Female,Emergency,Heart Disease,,18,2,2,3,3,,24,No
+382,78,Other,Urgent,Infection,,13,2,1,0,4,,82,No
+383,68,Female,Elective,Infection,,11,2,4,2,8,,63,No
+384,60,Male,Emergency,Injury,Emergency,21,0,1,0,4,,74,Yes
+385,29,Female,Emergency,Infection,,21,1,4,2,9,Normal,57,No
+386,84,Other,Elective,Diabetes,Urgent,16,3,3,1,9,Abnormal,8,Yes
+387,82,Other,Emergency,Heart Disease,Emergency,23,3,4,1,6,Normal,90,Yes
+388,50,Female,Elective,Infection,,17,4,1,4,2,,62,No
+389,57,Male,Elective,Heart Disease,,8,2,3,1,7,,29,No
+390,60,Male,Elective,Diabetes,,19,2,0,4,9,,74,No
+391,61,Female,Urgent,Infection,Urgent,20,2,2,0,6,,17,Yes
+392,46,Female,Urgent,Injury,Out-patient,15,3,1,1,3,Normal,66,Yes
+393,30,Other,Urgent,Heart Disease,,9,4,1,0,7,,6,No
+394,29,Male,Elective,Diabetes,,20,0,1,0,5,,58,No
+395,63,Female,Elective,Heart Disease,Urgent,10,1,3,1,1,Normal,69,Yes
+396,19,Male,Urgent,Infection,In-patient,12,0,0,0,3,Normal,28,Yes
+397,52,Female,Emergency,Infection,,21,3,4,1,5,Abnormal,62,No
+398,25,Female,Elective,Injury,Out-patient,23,2,0,1,7,Abnormal,41,Yes
+399,43,Male,Emergency,Diabetes,In-patient,20,1,3,1,3,Abnormal,69,Yes
+400,51,Female,Emergency,Diabetes,Urgent,1,3,1,2,6,Normal,82,Yes
+401,24,Female,Elective,Injury,Urgent,25,3,2,0,5,Normal,90,Yes
+402,75,Other,Elective,Injury,Urgent,20,3,1,3,1,,84,Yes
+403,46,Female,Emergency,Diabetes,In-patient,9,1,4,1,6,Abnormal,41,Yes
+404,53,Female,Emergency,Heart Disease,,22,1,2,0,8,,49,No
+405,38,Female,Urgent,Heart Disease,Out-patient,15,4,1,4,1,,91,Yes
+406,53,Other,Urgent,Injury,,1,4,2,1,2,,49,No
+407,27,Male,Elective,Heart Disease,,12,0,0,1,4,,76,No
+408,41,Other,Urgent,Diabetes,Emergency,3,1,3,3,2,Abnormal,71,Yes
+409,81,Other,Urgent,Infection,,11,1,1,2,9,,3,No
+410,66,Male,Urgent,Infection,,2,1,4,2,8,Normal,10,No
+411,53,Other,Urgent,Heart Disease,,16,4,0,1,8,Normal,98,No
+412,41,Male,Emergency,Injury,Urgent,9,3,1,0,4,Normal,89,Yes
+413,40,Other,Elective,Injury,,15,2,0,4,5,Abnormal,35,No
+414,79,Male,Urgent,Injury,In-patient,12,4,4,4,4,,80,Yes
+415,54,Female,Emergency,Injury,,1,1,1,0,9,Abnormal,2,No
+416,29,Other,Emergency,Injury,,13,4,4,1,2,,24,No
+417,72,Other,Emergency,Heart Disease,,14,0,2,4,8,Abnormal,74,No
+418,30,Other,Urgent,Infection,,25,1,4,2,2,Abnormal,38,No
+419,40,Other,Urgent,Infection,Out-patient,25,0,2,0,1,,22,Yes
+420,47,Female,Elective,Heart Disease,,8,1,1,3,3,Abnormal,26,No
+421,34,Other,Urgent,Injury,,8,4,2,1,9,,43,No
+422,79,Female,Urgent,Heart Disease,Urgent,27,3,1,0,3,Normal,55,Yes
+423,30,Female,Emergency,Infection,In-patient,12,2,1,4,9,Normal,39,Yes
+424,76,Female,Elective,Diabetes,Out-patient,1,0,3,1,7,Normal,91,Yes
+425,36,Female,Urgent,Heart Disease,,11,4,1,2,1,Abnormal,29,No
+426,66,Male,Urgent,Injury,Emergency,8,3,2,1,5,Normal,20,Yes
+427,29,Male,Emergency,Infection,In-patient,10,4,3,1,9,,91,Yes
+428,78,Other,Emergency,Infection,Urgent,19,0,3,2,3,Normal,41,Yes
+429,36,Male,Urgent,Infection,Out-patient,11,2,1,2,9,Normal,54,Yes
+430,26,Male,Elective,Infection,In-patient,7,4,4,1,5,,20,Yes
+431,45,Other,Elective,Injury,Urgent,11,1,4,2,9,,19,Yes
+432,69,Other,Emergency,Diabetes,,17,3,3,0,6,Abnormal,84,No
+433,33,Other,Emergency,Infection,In-patient,1,4,1,2,9,,99,Yes
+434,29,Male,Urgent,Heart Disease,,26,3,4,2,7,,66,No
+435,42,Male,Emergency,Diabetes,In-patient,29,1,1,1,7,Abnormal,30,Yes
+436,69,Other,Urgent,Infection,Urgent,21,2,1,0,8,,53,Yes
+437,70,Female,Elective,Diabetes,Out-patient,21,2,3,3,7,Normal,34,Yes
+438,40,Other,Elective,Heart Disease,,8,1,3,3,9,,22,No
+439,33,Female,Urgent,Infection,Urgent,23,3,0,4,9,,67,Yes
+440,74,Female,Emergency,Heart Disease,Emergency,24,4,4,2,6,,6,Yes
+441,56,Other,Elective,Injury,In-patient,6,1,4,2,7,Abnormal,79,Yes
+442,70,Other,Emergency,Infection,Emergency,22,0,4,0,2,,27,Yes
+443,59,Other,Elective,Infection,,18,3,2,3,9,,10,No
+444,75,Male,Urgent,Infection,,6,2,1,4,1,,73,No
+445,56,Female,Urgent,Infection,,5,1,3,0,1,Normal,97,No
+446,31,Male,Urgent,Injury,,13,2,4,2,3,,96,No
+447,22,Male,Elective,Infection,,19,3,0,3,6,Abnormal,48,No
+448,52,Other,Emergency,Diabetes,Urgent,22,2,4,4,5,,70,Yes
+449,35,Male,Emergency,Infection,Urgent,8,1,1,1,2,,59,Yes
+450,26,Other,Emergency,Injury,Out-patient,9,3,1,3,9,Normal,59,Yes
+451,75,Female,Elective,Infection,,17,0,3,4,4,,2,No
+452,34,Other,Elective,Diabetes,Urgent,3,1,2,0,4,Abnormal,29,Yes
+453,24,Male,Elective,Injury,,19,4,3,1,5,,68,No
+454,63,Male,Elective,Injury,Urgent,11,1,4,4,8,Abnormal,65,Yes
+455,30,Other,Elective,Diabetes,,24,3,0,4,4,Normal,83,No
+456,57,Other,Emergency,Diabetes,Emergency,17,1,3,2,5,,26,Yes
+457,59,Male,Elective,Diabetes,Out-patient,21,0,2,3,4,Normal,89,Yes
+458,26,Female,Elective,Diabetes,Urgent,19,0,3,2,6,,10,Yes
+459,67,Female,Emergency,Diabetes,Emergency,2,4,1,1,3,Abnormal,53,Yes
+460,44,Other,Elective,Injury,,8,2,4,4,8,,79,No
+461,83,Female,Emergency,Injury,Out-patient,19,3,4,2,6,,59,Yes
+462,22,Male,Emergency,Infection,Urgent,7,3,4,3,5,Abnormal,22,Yes
+463,46,Other,Urgent,Infection,In-patient,28,2,4,1,2,Normal,51,Yes
+464,54,Male,Urgent,Heart Disease,,27,0,4,0,7,,48,No
+465,55,Male,Urgent,Infection,In-patient,17,0,4,2,2,,21,Yes
+466,25,Female,Urgent,Infection,Out-patient,6,1,0,1,1,,22,Yes
+467,82,Other,Elective,Diabetes,Emergency,19,4,2,0,7,Abnormal,98,Yes
+468,34,Other,Urgent,Diabetes,In-patient,24,4,4,2,5,Abnormal,30,Yes
+469,62,Female,Emergency,Infection,Urgent,6,4,2,1,1,Normal,25,Yes
+470,21,Male,Elective,Heart Disease,,28,1,4,1,4,Normal,28,No
+471,53,Male,Urgent,Diabetes,,2,4,3,2,4,,65,No
+472,48,Male,Emergency,Infection,,6,2,4,1,7,Abnormal,45,No
+473,36,Male,Elective,Infection,Emergency,23,1,1,4,9,,68,Yes
+474,78,Other,Elective,Injury,,5,2,0,2,2,Abnormal,7,No
+475,71,Other,Urgent,Heart Disease,In-patient,19,1,3,1,1,Normal,49,Yes
+476,56,Female,Elective,Injury,In-patient,20,4,3,0,2,,9,Yes
+477,36,Female,Emergency,Heart Disease,Urgent,4,2,1,0,7,,36,Yes
+478,56,Other,Elective,Diabetes,Emergency,22,2,4,4,6,Abnormal,83,Yes
+479,84,Other,Emergency,Heart Disease,,26,2,0,2,4,Abnormal,1,No
+480,62,Male,Elective,Infection,,17,1,3,1,1,Abnormal,10,No
+481,30,Male,Urgent,Infection,,11,3,0,1,1,Normal,36,No
+482,75,Female,Emergency,Heart Disease,Emergency,4,4,3,0,5,,73,Yes
+483,37,Other,Elective,Heart Disease,,26,2,4,4,1,Abnormal,46,No
+484,78,Female,Elective,Heart Disease,,13,3,3,0,7,Normal,32,No
+485,56,Other,Elective,Injury,Out-patient,20,4,3,0,1,Abnormal,32,Yes
+486,18,Male,Emergency,Heart Disease,,26,4,2,4,1,,6,No
+487,20,Female,Emergency,Diabetes,In-patient,17,2,4,2,2,Abnormal,48,Yes
+488,79,Female,Emergency,Injury,,9,2,1,1,3,,38,No
+489,80,Other,Urgent,Injury,,4,1,1,2,1,Normal,17,No
+490,42,Male,Urgent,Heart Disease,,23,3,4,3,9,Normal,74,No
+491,73,Female,Emergency,Diabetes,Emergency,28,3,1,3,8,Abnormal,27,Yes
+492,50,Male,Elective,Injury,,14,2,4,3,5,,54,No
+493,55,Female,Urgent,Infection,,19,4,1,4,2,,50,No
+494,23,Male,Emergency,Injury,,26,2,2,0,5,,35,No
+495,75,Other,Elective,Heart Disease,,28,4,1,2,6,Abnormal,85,No
+496,61,Female,Urgent,Diabetes,Out-patient,3,4,3,1,1,,25,Yes
+497,62,Female,Elective,Heart Disease,In-patient,14,2,4,3,4,,28,Yes
+498,49,Male,Elective,Infection,,8,0,0,2,9,,15,No
+499,62,Male,Elective,Infection,,24,3,0,3,2,,4,No
+500,78,Female,Elective,Infection,,27,4,4,3,5,Abnormal,93,No
+501,64,Other,Urgent,Heart Disease,Urgent,28,4,2,1,1,Abnormal,73,Yes
+502,38,Male,Urgent,Injury,,1,0,1,4,4,,27,No
+503,53,Male,Urgent,Heart Disease,,10,1,2,0,4,,26,No
+504,36,Male,Emergency,Diabetes,Emergency,18,0,0,4,6,Normal,19,Yes
+505,37,Female,Urgent,Injury,Out-patient,16,0,4,2,9,Normal,92,Yes
+506,74,Female,Elective,Infection,Emergency,8,4,4,4,3,,17,Yes
+507,35,Female,Urgent,Heart Disease,,1,3,2,2,9,,43,No
+508,64,Female,Elective,Infection,In-patient,12,0,2,2,6,Normal,41,Yes
+509,66,Other,Emergency,Infection,Emergency,8,1,1,0,7,Normal,42,Yes
+510,31,Other,Elective,Diabetes,,24,2,3,1,2,,50,No
+511,32,Female,Elective,Injury,Urgent,16,0,3,0,6,Abnormal,84,Yes
+512,48,Other,Elective,Diabetes,,18,0,1,4,6,Abnormal,40,No
+513,18,Male,Emergency,Diabetes,,4,1,3,2,2,,39,No
+514,71,Male,Urgent,Diabetes,Emergency,6,3,0,3,2,,23,Yes
+515,20,Male,Urgent,Infection,,12,0,3,3,2,Normal,96,No
+516,33,Female,Emergency,Diabetes,Emergency,27,0,1,2,1,Normal,52,Yes
+517,74,Male,Elective,Diabetes,In-patient,9,3,3,0,5,Abnormal,47,Yes
+518,29,Other,Urgent,Injury,In-patient,15,1,4,1,8,,63,Yes
+519,33,Female,Emergency,Injury,,16,0,2,0,2,Normal,97,No
+520,41,Other,Urgent,Diabetes,Urgent,24,3,0,2,5,Abnormal,69,Yes
+521,45,Male,Emergency,Injury,,12,0,4,2,8,Abnormal,43,No
+522,25,Male,Elective,Injury,,24,2,4,1,5,Abnormal,48,No
+523,53,Male,Urgent,Diabetes,,23,4,1,4,2,Normal,34,No
+524,25,Female,Emergency,Infection,Urgent,14,2,2,4,3,Normal,40,Yes
+525,75,Other,Urgent,Diabetes,,13,0,2,1,6,,75,No
+526,77,Female,Urgent,Injury,,25,1,0,4,5,,61,No
+527,67,Female,Urgent,Infection,Urgent,2,4,1,3,4,Abnormal,50,Yes
+528,45,Male,Urgent,Heart Disease,Emergency,3,2,0,4,4,Abnormal,67,Yes
+529,58,Female,Emergency,Infection,,26,3,3,4,5,Normal,62,No
+530,81,Female,Elective,Injury,,24,1,4,4,2,Normal,58,No
+531,44,Male,Emergency,Infection,In-patient,22,2,0,3,9,,33,Yes
+532,80,Female,Emergency,Diabetes,,10,3,4,4,2,,75,No
+533,34,Male,Emergency,Heart Disease,,9,0,1,3,2,,16,No
+534,50,Male,Elective,Heart Disease,,26,3,3,1,9,Normal,82,No
+535,46,Male,Urgent,Heart Disease,,20,2,1,0,3,Abnormal,94,No
+536,30,Male,Urgent,Injury,Urgent,8,2,3,1,7,,48,Yes
+537,63,Female,Urgent,Injury,,10,0,3,0,4,,10,No
+538,52,Male,Elective,Heart Disease,Out-patient,19,3,4,1,6,Normal,82,Yes
+539,23,Male,Urgent,Infection,,3,3,1,0,4,,38,No
+540,64,Female,Elective,Heart Disease,Emergency,24,0,1,0,7,Abnormal,19,Yes
+541,42,Female,Urgent,Infection,,5,3,0,2,1,Normal,36,No
+542,83,Other,Urgent,Infection,Out-patient,3,0,1,0,3,,59,Yes
+543,27,Female,Emergency,Injury,,26,1,0,0,3,,63,No
+544,73,Female,Elective,Infection,Emergency,27,2,2,2,1,Normal,77,Yes
+545,47,Other,Emergency,Heart Disease,,16,1,2,4,6,Normal,46,No
+546,22,Female,Emergency,Injury,,17,4,2,4,9,,3,No
+547,50,Female,Emergency,Diabetes,Emergency,15,4,1,2,8,Abnormal,74,Yes
+548,82,Female,Elective,Diabetes,Urgent,3,4,1,3,7,Normal,65,Yes
+549,35,Female,Elective,Injury,Urgent,12,0,0,0,8,Abnormal,91,Yes
+550,66,Other,Urgent,Heart Disease,Urgent,9,3,3,0,6,,8,Yes
+551,28,Female,Emergency,Diabetes,In-patient,21,1,0,2,9,Abnormal,51,Yes
+552,43,Female,Urgent,Diabetes,,12,1,2,2,3,,81,No
+553,80,Other,Emergency,Infection,Out-patient,26,1,0,3,9,,73,Yes
+554,76,Male,Elective,Infection,Emergency,15,1,3,4,4,,6,Yes
+555,44,Other,Elective,Heart Disease,,2,4,1,1,7,,89,No
+556,66,Male,Elective,Injury,Emergency,23,1,0,4,9,Abnormal,39,Yes
+557,50,Other,Emergency,Heart Disease,Urgent,18,3,2,0,2,,60,Yes
+558,18,Other,Elective,Injury,Out-patient,20,4,2,2,2,,28,Yes
+559,38,Female,Emergency,Diabetes,,12,1,1,3,9,,97,No
+560,72,Male,Urgent,Infection,Emergency,23,0,0,4,3,Normal,54,Yes
+561,23,Female,Emergency,Heart Disease,,4,2,3,3,9,Abnormal,37,No
+562,22,Male,Urgent,Heart Disease,,23,2,1,4,5,Abnormal,9,No
+563,20,Other,Emergency,Injury,Urgent,16,2,0,0,6,Abnormal,82,Yes
+564,70,Other,Urgent,Injury,,23,4,4,1,2,,56,No
+565,40,Male,Elective,Heart Disease,In-patient,16,1,2,3,8,,59,Yes
+566,70,Female,Urgent,Injury,Urgent,1,4,3,3,9,,85,Yes
+567,54,Female,Elective,Heart Disease,Urgent,22,3,3,1,2,Normal,2,Yes
+568,34,Female,Elective,Heart Disease,Emergency,25,0,3,3,6,,61,Yes
+569,18,Female,Urgent,Heart Disease,Emergency,2,0,2,3,6,Normal,58,Yes
+570,68,Other,Emergency,Diabetes,,3,2,0,4,8,,60,No
+571,62,Other,Emergency,Injury,,26,2,1,4,5,Abnormal,40,No
+572,21,Other,Emergency,Infection,,21,2,0,1,9,,36,No
+573,79,Other,Emergency,Infection,,25,1,1,0,1,Normal,37,No
+574,82,Other,Emergency,Injury,Urgent,20,3,3,3,9,Normal,79,Yes
+575,49,Female,Elective,Heart Disease,Out-patient,17,3,0,0,7,,92,Yes
+576,51,Female,Emergency,Infection,,20,3,3,1,4,Abnormal,18,No
+577,56,Female,Elective,Infection,In-patient,22,3,4,1,3,,98,Yes
+578,43,Female,Elective,Injury,,21,2,3,4,6,,63,No
+579,51,Other,Elective,Infection,,29,0,3,3,1,,22,No
+580,71,Other,Urgent,Heart Disease,,1,2,1,2,3,Abnormal,11,No
+581,20,Other,Urgent,Injury,,20,3,4,1,2,Normal,58,No
+582,67,Male,Elective,Heart Disease,Emergency,6,2,3,3,9,Abnormal,57,Yes
+583,29,Female,Urgent,Infection,Emergency,29,3,3,0,3,Normal,77,Yes
+584,82,Female,Emergency,Infection,,15,4,4,4,2,Normal,4,No
+585,71,Other,Emergency,Heart Disease,,26,0,4,0,4,Normal,86,No
+586,22,Female,Elective,Diabetes,,26,4,0,1,2,Abnormal,7,No
+587,74,Female,Emergency,Infection,,14,1,1,1,1,,61,No
+588,34,Other,Elective,Diabetes,,20,2,4,0,6,,54,No
+589,64,Male,Elective,Infection,Out-patient,15,1,4,1,8,,88,Yes
+590,40,Male,Emergency,Diabetes,,14,2,2,3,2,,68,No
+591,31,Male,Urgent,Diabetes,,25,4,4,1,9,,92,No
+592,83,Other,Emergency,Diabetes,Out-patient,21,3,1,4,3,,79,Yes
+593,68,Female,Emergency,Heart Disease,In-patient,24,3,3,3,8,Abnormal,1,Yes
+594,55,Other,Elective,Diabetes,Out-patient,25,2,3,2,8,Abnormal,55,Yes
+595,81,Other,Elective,Diabetes,Urgent,26,3,3,1,3,Abnormal,3,Yes
+596,55,Female,Elective,Diabetes,Urgent,5,4,3,1,3,Abnormal,78,Yes
+597,67,Male,Elective,Infection,Emergency,6,3,2,4,6,Abnormal,38,Yes
+598,47,Male,Urgent,Diabetes,In-patient,17,4,4,4,1,Abnormal,1,Yes
+599,68,Other,Urgent,Infection,Emergency,11,1,3,0,4,,38,Yes
+600,80,Male,Urgent,Diabetes,Out-patient,16,4,0,0,1,Normal,85,Yes
+601,69,Other,Elective,Diabetes,,12,0,3,0,3,Abnormal,29,No
+602,55,Other,Elective,Heart Disease,Out-patient,15,0,4,4,9,Normal,5,Yes
+603,47,Female,Elective,Infection,,23,0,3,0,5,Abnormal,74,No
+604,68,Female,Urgent,Diabetes,,4,2,2,0,5,,92,No
+605,22,Female,Elective,Infection,,27,2,1,2,4,,21,No
+606,46,Other,Emergency,Infection,,18,2,1,0,3,Normal,71,No
+607,21,Female,Emergency,Injury,,21,4,4,1,5,,67,No
+608,27,Male,Elective,Heart Disease,,28,2,1,4,4,,47,No
+609,73,Male,Emergency,Heart Disease,,3,1,1,3,8,Normal,84,No
+610,34,Other,Emergency,Heart Disease,,22,0,0,2,4,,83,No
+611,34,Other,Urgent,Injury,Emergency,8,4,4,4,8,Abnormal,35,Yes
+612,51,Female,Elective,Injury,,23,0,4,4,6,Abnormal,68,No
+613,23,Other,Elective,Heart Disease,,3,2,1,1,5,Abnormal,69,No
+614,70,Other,Urgent,Injury,,8,4,1,0,4,Abnormal,1,No
+615,83,Male,Emergency,Injury,,18,3,1,1,4,Abnormal,68,No
+616,60,Male,Emergency,Injury,Urgent,10,1,2,0,4,,12,Yes
+617,40,Female,Elective,Heart Disease,,25,2,3,0,9,,60,No
+618,72,Other,Emergency,Heart Disease,Urgent,20,2,2,4,4,Abnormal,27,Yes
+619,33,Other,Urgent,Heart Disease,In-patient,17,1,4,0,9,,56,Yes
+620,25,Male,Urgent,Injury,,8,1,0,2,6,,23,No
+621,21,Other,Elective,Heart Disease,,23,3,3,2,7,Normal,25,No
+622,21,Male,Urgent,Injury,Urgent,11,2,0,2,3,,21,Yes
+623,73,Female,Urgent,Diabetes,,29,2,4,4,8,,61,No
+624,42,Male,Elective,Injury,,5,0,4,1,3,,63,No
+625,84,Other,Urgent,Infection,Urgent,26,4,0,3,1,,52,Yes
+626,84,Female,Urgent,Heart Disease,Out-patient,13,4,0,0,5,,88,Yes
+627,44,Male,Urgent,Heart Disease,,21,0,0,3,2,Normal,25,No
+628,49,Male,Emergency,Infection,,23,4,4,1,6,Abnormal,55,No
+629,67,Female,Elective,Injury,,5,1,1,1,9,Abnormal,46,No
+630,78,Female,Elective,Diabetes,Out-patient,24,4,0,4,1,Normal,32,Yes
+631,68,Male,Elective,Infection,,27,4,3,2,4,Abnormal,55,No
+632,36,Other,Emergency,Infection,Urgent,13,0,4,2,1,Abnormal,96,Yes
+633,38,Male,Emergency,Injury,Out-patient,6,3,2,1,1,Abnormal,5,Yes
+634,22,Female,Elective,Heart Disease,,29,4,2,4,8,,36,No
+635,59,Male,Emergency,Injury,Urgent,5,4,3,4,2,Normal,49,Yes
+636,78,Female,Elective,Infection,,9,3,1,0,1,Abnormal,58,No
+637,39,Female,Emergency,Infection,,27,0,0,2,8,Abnormal,39,No
+638,38,Other,Urgent,Heart Disease,Out-patient,16,3,4,1,4,Abnormal,80,Yes
+639,18,Female,Urgent,Heart Disease,,2,0,0,3,3,,97,No
+640,22,Female,Elective,Heart Disease,In-patient,1,1,4,2,4,,85,Yes
+641,29,Other,Emergency,Injury,In-patient,8,0,2,0,5,,61,Yes
+642,63,Female,Emergency,Heart Disease,,28,1,0,4,1,Normal,9,No
+643,51,Other,Urgent,Infection,,19,1,3,1,1,Abnormal,6,No
+644,66,Other,Urgent,Infection,,11,0,1,2,3,,35,No
+645,62,Female,Emergency,Diabetes,,28,2,3,3,6,Normal,39,No
+646,44,Female,Emergency,Injury,Out-patient,12,0,1,0,1,Normal,22,Yes
+647,43,Male,Emergency,Diabetes,Emergency,12,4,0,0,2,Abnormal,41,Yes
+648,64,Other,Emergency,Infection,Out-patient,7,4,0,2,7,,5,Yes
+649,73,Male,Emergency,Diabetes,,26,2,1,3,1,Abnormal,42,No
+650,80,Female,Emergency,Infection,In-patient,13,1,2,0,7,Abnormal,87,Yes
+651,65,Male,Elective,Diabetes,In-patient,27,2,4,1,4,,81,Yes
+652,78,Other,Emergency,Heart Disease,,8,4,3,0,6,Normal,76,No
+653,43,Male,Urgent,Diabetes,,29,2,3,3,8,Normal,87,No
+654,53,Other,Elective,Heart Disease,,29,0,3,4,9,,80,No
+655,18,Female,Emergency,Heart Disease,Out-patient,22,2,0,4,6,,67,Yes
+656,25,Female,Urgent,Injury,,28,1,3,2,9,,30,No
+657,69,Other,Elective,Heart Disease,Emergency,26,0,4,3,4,Abnormal,57,Yes
+658,64,Female,Urgent,Heart Disease,Emergency,9,3,4,0,6,Normal,86,Yes
+659,73,Female,Emergency,Diabetes,Urgent,7,4,1,0,8,Abnormal,73,Yes
+660,31,Female,Emergency,Infection,Urgent,26,4,0,4,9,,29,Yes
+661,45,Female,Emergency,Injury,In-patient,21,2,4,4,3,Normal,37,Yes
+662,19,Other,Emergency,Heart Disease,,24,0,2,1,2,,87,No
+663,43,Male,Elective,Injury,In-patient,15,3,0,4,6,Normal,13,Yes
+664,31,Male,Elective,Diabetes,,2,0,0,1,4,Normal,32,No
+665,76,Female,Urgent,Heart Disease,In-patient,23,4,4,0,1,Abnormal,46,Yes
+666,73,Male,Emergency,Diabetes,Out-patient,20,0,2,1,8,,23,Yes
+667,24,Male,Urgent,Injury,,25,3,1,1,9,,45,No
+668,20,Female,Elective,Diabetes,Out-patient,12,2,4,2,9,Abnormal,17,Yes
+669,40,Female,Emergency,Injury,Urgent,1,1,2,4,2,Abnormal,85,Yes
+670,35,Male,Emergency,Diabetes,,23,0,0,1,9,Abnormal,66,No
+671,55,Other,Elective,Injury,,22,1,2,0,7,Normal,6,No
+672,32,Female,Elective,Infection,In-patient,8,4,0,3,5,Abnormal,18,Yes
+673,81,Other,Elective,Diabetes,In-patient,5,2,4,1,7,,94,Yes
+674,45,Male,Elective,Diabetes,Urgent,15,2,4,4,9,Normal,22,Yes
+675,56,Female,Elective,Infection,,1,0,3,2,8,Normal,33,No
+676,74,Other,Emergency,Infection,Emergency,1,2,3,0,6,Abnormal,30,Yes
+677,34,Female,Elective,Diabetes,,25,0,3,2,4,Normal,81,No
+678,61,Male,Emergency,Infection,,10,0,4,3,1,,32,No
+679,42,Other,Emergency,Heart Disease,Out-patient,22,1,1,1,6,,42,Yes
+680,34,Male,Elective,Injury,,10,2,4,1,3,Normal,78,No
+681,30,Male,Elective,Injury,Out-patient,21,0,2,4,6,Abnormal,10,Yes
+682,42,Female,Emergency,Injury,In-patient,15,1,4,1,6,Abnormal,36,Yes
+683,27,Other,Elective,Heart Disease,,17,3,4,0,4,Normal,34,No
+684,84,Male,Elective,Infection,,22,1,0,3,2,,73,No
+685,35,Male,Elective,Infection,,6,1,0,2,9,Normal,28,No
+686,51,Other,Urgent,Diabetes,,3,0,0,3,2,Abnormal,11,No
+687,25,Male,Emergency,Infection,,13,4,4,1,3,,78,No
+688,57,Male,Urgent,Diabetes,,16,4,1,2,1,Normal,39,No
+689,59,Other,Elective,Heart Disease,Urgent,8,4,2,4,7,,47,Yes
+690,58,Other,Urgent,Injury,In-patient,15,1,2,3,1,Normal,19,Yes
+691,23,Other,Elective,Injury,In-patient,17,0,1,2,9,,15,Yes
+692,69,Other,Urgent,Injury,,17,2,1,2,1,,28,No
+693,43,Female,Elective,Infection,,22,1,2,2,5,,24,No
+694,81,Other,Urgent,Diabetes,,26,1,3,0,7,Normal,72,No
+695,76,Female,Urgent,Diabetes,Urgent,13,0,0,3,3,,9,Yes
+696,73,Female,Urgent,Heart Disease,Emergency,17,3,0,2,9,,47,Yes
+697,76,Female,Emergency,Infection,,6,1,2,3,8,,33,No
+698,50,Male,Urgent,Heart Disease,,17,3,1,2,3,,62,No
+699,70,Female,Emergency,Diabetes,,16,3,3,4,5,Abnormal,97,No
+700,39,Female,Elective,Diabetes,,14,4,2,4,7,Normal,19,No
+701,38,Male,Urgent,Injury,Emergency,13,0,0,4,4,,67,Yes
+702,21,Male,Elective,Infection,In-patient,6,3,4,1,5,Normal,74,Yes
+703,79,Male,Elective,Diabetes,Emergency,3,0,1,2,3,,40,Yes
+704,79,Other,Urgent,Injury,,14,4,4,1,9,Normal,47,No
+705,41,Male,Emergency,Infection,Emergency,14,0,2,3,9,Normal,65,Yes
+706,72,Male,Urgent,Heart Disease,,15,1,0,1,7,,29,No
+707,26,Female,Elective,Infection,,8,3,3,3,2,,50,No
+708,20,Male,Elective,Infection,,29,0,4,3,7,Normal,98,No
+709,48,Other,Urgent,Diabetes,Out-patient,15,2,3,3,7,Normal,13,Yes
+710,57,Male,Emergency,Diabetes,Emergency,22,0,0,1,5,Normal,1,Yes
+711,53,Other,Emergency,Infection,,29,3,4,2,9,Abnormal,34,No
+712,41,Male,Elective,Diabetes,Out-patient,27,4,3,1,3,,93,Yes
+713,23,Male,Elective,Diabetes,,13,4,3,2,4,Abnormal,48,No
+714,83,Male,Emergency,Diabetes,,17,3,4,2,1,Abnormal,77,No
+715,21,Male,Urgent,Injury,,21,1,0,3,6,,48,No
+716,23,Other,Elective,Injury,In-patient,24,1,3,1,4,,49,Yes
+717,68,Other,Emergency,Infection,Urgent,3,4,2,2,1,Abnormal,64,Yes
+718,79,Female,Elective,Diabetes,,28,4,4,4,2,,61,No
+719,74,Other,Urgent,Injury,In-patient,6,3,1,2,3,,29,Yes
+720,83,Male,Emergency,Infection,Urgent,5,1,1,4,9,Normal,39,Yes
+721,25,Female,Elective,Diabetes,In-patient,22,4,0,1,8,Abnormal,88,Yes
+722,43,Female,Urgent,Heart Disease,Emergency,26,1,2,1,7,,26,Yes
+723,68,Female,Elective,Diabetes,,17,4,3,1,4,,17,No
+724,62,Male,Urgent,Diabetes,Out-patient,23,0,1,2,1,,71,Yes
+725,61,Other,Urgent,Injury,,25,2,0,0,8,Abnormal,13,No
+726,22,Male,Emergency,Infection,,2,0,2,2,4,Abnormal,69,No
+727,43,Female,Urgent,Infection,Urgent,26,4,2,2,3,Normal,26,Yes
+728,36,Male,Elective,Injury,,15,2,0,3,9,Normal,49,No
+729,37,Male,Urgent,Diabetes,,5,2,0,3,4,,67,No
+730,29,Other,Urgent,Heart Disease,Emergency,26,4,3,2,4,Normal,7,Yes
+731,64,Other,Emergency,Diabetes,,20,4,0,4,9,,58,No
+732,18,Female,Urgent,Diabetes,,6,1,3,3,2,,49,No
+733,31,Male,Urgent,Heart Disease,In-patient,6,4,3,2,5,,53,Yes
+734,81,Male,Elective,Injury,Out-patient,27,3,4,0,4,,65,Yes
+735,55,Other,Emergency,Infection,In-patient,18,4,2,4,9,Abnormal,62,Yes
+736,54,Male,Emergency,Injury,Emergency,18,3,2,1,5,Abnormal,17,Yes
+737,28,Male,Emergency,Injury,In-patient,4,4,2,2,9,Normal,43,Yes
+738,20,Male,Urgent,Diabetes,,17,1,4,2,9,Abnormal,25,No
+739,50,Other,Emergency,Infection,,25,3,3,4,2,,3,No
+740,23,Female,Urgent,Infection,Out-patient,14,0,3,3,9,Abnormal,79,Yes
+741,67,Female,Urgent,Injury,Emergency,14,3,0,3,3,Normal,29,Yes
+742,27,Male,Elective,Heart Disease,,13,1,4,3,4,Abnormal,32,No
+743,22,Female,Elective,Injury,Out-patient,7,3,0,1,1,,26,Yes
+744,40,Other,Elective,Heart Disease,Emergency,12,4,4,4,1,,16,Yes
+745,27,Other,Elective,Infection,,23,4,0,4,1,Normal,25,No
+746,61,Female,Elective,Injury,,15,1,1,3,9,Normal,54,No
+747,19,Female,Urgent,Diabetes,,19,2,2,3,8,Normal,28,No
+748,30,Male,Urgent,Injury,Urgent,11,4,2,0,5,,73,Yes
+749,57,Female,Emergency,Infection,,15,0,3,0,5,Abnormal,56,No
+750,19,Male,Urgent,Diabetes,Emergency,12,1,1,2,9,Abnormal,65,Yes
+751,82,Male,Urgent,Diabetes,,3,3,2,2,3,Normal,93,No
+752,80,Other,Elective,Heart Disease,Emergency,17,3,3,4,3,Abnormal,86,Yes
+753,34,Other,Urgent,Diabetes,Emergency,3,0,1,4,7,Abnormal,80,Yes
+754,26,Other,Elective,Diabetes,Urgent,19,4,2,1,9,Normal,41,Yes
+755,32,Other,Emergency,Injury,,20,1,0,1,6,,51,No
+756,41,Female,Emergency,Infection,,4,0,4,0,2,,71,No
+757,55,Other,Urgent,Heart Disease,,3,4,1,2,1,,78,No
+758,52,Female,Emergency,Injury,Out-patient,26,1,3,0,2,,29,Yes
+759,66,Other,Urgent,Diabetes,,16,3,1,0,1,,83,No
+760,79,Female,Emergency,Diabetes,,12,1,3,2,9,,19,No
+761,77,Male,Elective,Heart Disease,Urgent,8,2,1,1,8,Abnormal,66,Yes
+762,67,Female,Elective,Infection,Emergency,24,1,3,2,7,,41,Yes
+763,26,Female,Elective,Heart Disease,,29,2,2,3,3,,45,No
+764,51,Other,Elective,Injury,,29,1,0,3,8,Normal,15,No
+765,52,Female,Urgent,Heart Disease,,17,2,2,3,2,Abnormal,3,No
+766,18,Male,Emergency,Diabetes,In-patient,7,3,0,4,2,Abnormal,11,Yes
+767,57,Male,Urgent,Injury,,11,4,2,1,3,,53,No
+768,81,Other,Elective,Diabetes,In-patient,18,2,2,1,7,Abnormal,46,Yes
+769,39,Male,Urgent,Infection,Emergency,1,2,1,4,1,Normal,30,Yes
+770,77,Female,Emergency,Diabetes,,3,3,4,0,8,Normal,57,No
+771,81,Male,Urgent,Diabetes,,4,2,3,3,7,Abnormal,18,No
+772,28,Other,Emergency,Heart Disease,Urgent,13,0,3,3,4,,51,Yes
+773,31,Female,Urgent,Diabetes,Out-patient,6,3,3,0,5,Abnormal,48,Yes
+774,77,Other,Emergency,Injury,,26,0,0,2,1,Normal,66,No
+775,47,Female,Emergency,Injury,,14,3,3,2,4,,96,No
+776,52,Male,Elective,Infection,,5,2,3,1,1,Abnormal,8,No
+777,54,Other,Emergency,Injury,Out-patient,16,0,1,4,1,,22,Yes
+778,22,Other,Elective,Heart Disease,In-patient,15,2,2,1,1,,6,Yes
+779,43,Female,Elective,Infection,,15,3,3,2,7,Normal,76,No
+780,79,Other,Elective,Injury,Out-patient,4,2,4,0,7,,57,Yes
+781,21,Female,Urgent,Heart Disease,Emergency,8,0,3,1,4,Abnormal,36,Yes
+782,59,Female,Urgent,Injury,,27,0,0,3,2,,79,No
+783,35,Female,Urgent,Injury,Emergency,16,2,0,3,3,,92,Yes
+784,57,Female,Urgent,Diabetes,,28,1,0,0,8,Abnormal,57,No
+785,56,Male,Emergency,Injury,,16,3,3,2,8,Normal,49,No
+786,31,Female,Emergency,Injury,Urgent,4,3,1,3,6,Normal,45,Yes
+787,49,Other,Urgent,Heart Disease,Out-patient,13,2,4,3,9,Abnormal,82,Yes
+788,68,Male,Emergency,Heart Disease,,26,1,3,4,9,Abnormal,66,No
+789,55,Other,Emergency,Diabetes,Emergency,28,0,1,1,4,Normal,77,Yes
+790,40,Male,Elective,Injury,,13,4,1,2,1,,45,No
+791,80,Female,Elective,Diabetes,Urgent,2,4,3,1,1,Abnormal,79,Yes
+792,32,Male,Elective,Injury,In-patient,3,2,3,2,5,,20,Yes
+793,42,Male,Elective,Infection,Out-patient,22,1,1,3,2,Abnormal,64,Yes
+794,34,Other,Emergency,Infection,,8,1,1,4,6,Normal,93,No
+795,83,Other,Urgent,Diabetes,Emergency,24,3,1,1,7,,93,Yes
+796,70,Female,Emergency,Diabetes,,15,0,3,3,1,,67,No
+797,68,Male,Emergency,Diabetes,,11,1,1,2,6,Abnormal,83,No
+798,56,Male,Emergency,Heart Disease,,9,4,0,1,8,,3,No
+799,68,Male,Elective,Heart Disease,Emergency,7,0,3,1,5,Abnormal,54,Yes
+800,23,Female,Elective,Heart Disease,,13,0,0,3,7,Normal,78,No
+801,84,Female,Elective,Diabetes,,2,2,2,1,6,,64,No
+802,24,Female,Urgent,Injury,Emergency,8,1,3,4,4,Abnormal,40,Yes
+803,68,Female,Emergency,Infection,,7,2,2,4,7,,59,No
+804,59,Female,Urgent,Diabetes,,24,1,1,3,9,Abnormal,55,No
+805,81,Other,Elective,Heart Disease,Out-patient,12,3,1,2,7,Abnormal,62,Yes
+806,32,Male,Urgent,Heart Disease,,19,2,4,3,5,Abnormal,4,No
+807,46,Male,Emergency,Diabetes,Urgent,7,2,1,4,7,Normal,60,Yes
+808,50,Male,Emergency,Diabetes,,10,4,2,0,3,,75,No
+809,44,Male,Elective,Heart Disease,,29,2,1,0,2,Normal,95,No
+810,53,Male,Elective,Injury,Urgent,25,1,3,1,5,Abnormal,96,Yes
+811,46,Male,Urgent,Heart Disease,,16,4,1,1,4,Abnormal,91,No
+812,55,Male,Elective,Heart Disease,,3,2,4,0,5,Normal,30,No
+813,74,Male,Elective,Diabetes,,10,2,1,4,8,Normal,2,No
+814,44,Other,Emergency,Injury,In-patient,6,3,2,1,4,,62,Yes
+815,72,Male,Elective,Heart Disease,In-patient,18,2,2,3,9,Abnormal,49,Yes
+816,50,Other,Elective,Heart Disease,Out-patient,18,0,1,3,7,Normal,9,Yes
+817,83,Female,Emergency,Infection,In-patient,5,4,2,4,7,Abnormal,92,Yes
+818,27,Male,Emergency,Diabetes,Emergency,21,0,2,1,8,Abnormal,31,Yes
+819,22,Female,Urgent,Infection,,29,4,4,3,6,,98,No
+820,55,Female,Elective,Infection,Out-patient,7,3,3,1,8,,61,Yes
+821,30,Female,Emergency,Heart Disease,In-patient,28,2,4,1,3,,79,Yes
+822,48,Other,Urgent,Diabetes,Urgent,2,2,0,3,1,Normal,48,Yes
+823,64,Female,Urgent,Injury,,11,2,4,0,6,Abnormal,25,No
+824,69,Female,Elective,Heart Disease,,13,4,1,3,1,Normal,36,No
+825,73,Female,Elective,Injury,Emergency,23,2,3,4,9,Normal,8,Yes
+826,32,Male,Urgent,Injury,,5,0,1,2,2,,73,No
+827,46,Male,Emergency,Diabetes,,6,2,0,3,2,,58,No
+828,25,Other,Urgent,Infection,,24,3,3,1,7,Abnormal,45,No
+829,22,Other,Elective,Diabetes,,26,0,2,1,2,,62,No
+830,46,Male,Emergency,Injury,Out-patient,29,2,4,3,8,Abnormal,39,Yes
+831,64,Other,Emergency,Heart Disease,In-patient,14,2,1,2,6,,96,Yes
+832,62,Male,Urgent,Injury,,12,1,0,3,7,Normal,58,No
+833,19,Female,Elective,Heart Disease,,4,4,2,2,7,Normal,81,No
+834,44,Female,Urgent,Heart Disease,,29,0,4,2,6,,99,No
+835,53,Other,Urgent,Diabetes,,23,1,2,4,9,Normal,83,No
+836,53,Male,Urgent,Injury,In-patient,6,3,4,1,9,Normal,64,Yes
+837,43,Male,Emergency,Infection,,10,4,3,1,7,,44,No
+838,60,Other,Emergency,Injury,In-patient,18,0,2,2,9,Normal,29,Yes
+839,44,Male,Elective,Injury,,15,2,2,1,3,Abnormal,59,No
+840,37,Female,Elective,Infection,Emergency,8,0,2,0,3,Normal,71,Yes
+841,28,Other,Urgent,Diabetes,,26,2,3,2,1,,92,No
+842,55,Other,Urgent,Injury,Out-patient,9,4,0,1,5,Abnormal,9,Yes
+843,23,Male,Urgent,Injury,Out-patient,5,2,4,0,4,Abnormal,92,Yes
+844,40,Other,Elective,Heart Disease,Out-patient,10,3,2,4,2,Normal,6,Yes
+845,64,Male,Emergency,Injury,,20,2,3,1,9,Abnormal,29,No
+846,63,Male,Emergency,Infection,Emergency,6,3,0,0,3,,58,Yes
+847,29,Male,Urgent,Heart Disease,,16,4,4,3,8,Abnormal,17,No
+848,30,Male,Urgent,Diabetes,Urgent,24,4,3,3,6,Normal,16,Yes
+849,79,Male,Urgent,Heart Disease,Emergency,27,0,4,0,5,Normal,87,Yes
+850,77,Other,Urgent,Infection,,3,3,2,2,1,,95,No
+851,60,Female,Elective,Infection,Emergency,10,3,0,2,4,,3,Yes
+852,22,Female,Emergency,Heart Disease,,11,1,3,1,3,,21,No
+853,54,Other,Urgent,Diabetes,,11,1,0,3,1,Normal,64,No
+854,48,Other,Elective,Heart Disease,,17,1,2,2,5,Normal,90,No
+855,26,Female,Urgent,Diabetes,,4,2,0,2,6,,36,No
+856,68,Female,Urgent,Heart Disease,Emergency,4,1,0,3,2,Abnormal,86,Yes
+857,46,Female,Emergency,Infection,In-patient,17,3,1,4,3,Abnormal,62,Yes
+858,57,Female,Urgent,Injury,,9,2,0,2,6,Abnormal,42,No
+859,58,Female,Emergency,Injury,In-patient,19,4,4,0,4,Abnormal,76,Yes
+860,28,Male,Emergency,Diabetes,In-patient,5,0,3,1,9,,42,Yes
+861,40,Other,Emergency,Diabetes,,22,1,1,2,5,Normal,61,No
+862,18,Male,Elective,Diabetes,Urgent,24,4,3,2,4,Normal,13,Yes
+863,63,Female,Elective,Infection,,6,3,3,4,2,Abnormal,11,No
+864,38,Female,Emergency,Heart Disease,Out-patient,3,0,2,0,6,,54,Yes
+865,53,Female,Urgent,Infection,Out-patient,22,4,2,1,2,,16,Yes
+866,71,Male,Emergency,Injury,,1,0,1,2,7,Abnormal,8,No
+867,74,Male,Urgent,Diabetes,Emergency,20,1,2,1,3,Abnormal,59,Yes
+868,18,Female,Emergency,Heart Disease,Emergency,22,3,2,3,9,,57,Yes
+869,80,Male,Urgent,Injury,,16,0,2,2,5,Normal,40,No
+870,71,Male,Elective,Injury,Urgent,23,4,3,2,8,Abnormal,59,Yes
+871,72,Female,Urgent,Injury,,11,1,1,3,6,Normal,2,No
+872,57,Male,Emergency,Infection,Urgent,13,1,3,4,8,,94,Yes
+873,32,Other,Elective,Diabetes,,27,4,4,2,3,,94,No
+874,38,Other,Urgent,Injury,,10,4,3,1,3,Normal,76,No
+875,64,Other,Urgent,Diabetes,,3,0,4,0,5,Normal,10,No
+876,70,Other,Urgent,Infection,,9,2,0,1,3,,44,No
+877,26,Female,Urgent,Injury,,28,1,0,4,8,Normal,11,No
+878,69,Female,Urgent,Infection,Emergency,12,0,4,0,8,Abnormal,79,Yes
+879,74,Female,Elective,Infection,Emergency,23,4,4,1,2,,80,Yes
+880,43,Other,Elective,Diabetes,,14,0,3,1,4,Abnormal,81,No
+881,58,Other,Elective,Injury,Emergency,1,4,4,3,1,Normal,90,Yes
+882,52,Male,Elective,Infection,,18,3,1,4,4,Abnormal,2,No
+883,80,Male,Emergency,Injury,Out-patient,17,4,0,3,4,,50,Yes
+884,42,Other,Elective,Diabetes,Out-patient,27,4,0,0,9,,12,Yes
+885,55,Other,Urgent,Infection,,9,4,4,3,3,Abnormal,90,No
+886,19,Other,Urgent,Diabetes,,9,2,2,4,2,,23,No
+887,24,Other,Elective,Injury,Urgent,23,4,2,2,9,Normal,18,Yes
+888,51,Male,Urgent,Injury,Urgent,10,1,4,2,9,,62,Yes
+889,34,Other,Elective,Diabetes,,19,1,1,0,1,Normal,96,No
+890,60,Male,Urgent,Heart Disease,Urgent,29,0,2,2,6,,62,Yes
+891,76,Other,Emergency,Infection,In-patient,15,2,4,3,8,,38,Yes
+892,68,Other,Emergency,Injury,,5,0,1,0,3,Normal,67,No
+893,71,Other,Elective,Injury,In-patient,15,1,1,4,9,,38,Yes
+894,41,Male,Elective,Infection,,20,1,3,0,2,Normal,67,No
+895,42,Male,Elective,Diabetes,,23,3,1,0,6,Normal,94,No
+896,69,Female,Urgent,Diabetes,,25,4,2,1,1,Normal,61,No
+897,50,Other,Elective,Diabetes,Urgent,28,1,2,1,7,Abnormal,1,Yes
+898,66,Female,Emergency,Heart Disease,Out-patient,2,0,4,0,3,Normal,94,Yes
+899,46,Female,Urgent,Heart Disease,,13,0,4,2,7,,45,No
+900,80,Male,Elective,Injury,,24,4,1,1,4,Abnormal,96,No
+901,39,Male,Urgent,Diabetes,Out-patient,16,4,0,4,9,Abnormal,28,Yes
+902,43,Female,Urgent,Infection,Emergency,15,3,3,3,5,,21,Yes
+903,45,Other,Elective,Injury,Out-patient,25,2,0,1,3,Normal,13,Yes
+904,66,Male,Urgent,Infection,,10,0,1,0,8,Abnormal,27,No
+905,66,Other,Emergency,Injury,,14,4,1,2,6,Abnormal,7,No
+906,37,Other,Emergency,Heart Disease,Emergency,10,0,0,3,2,Abnormal,22,Yes
+907,80,Female,Urgent,Injury,Urgent,25,4,3,1,3,,74,Yes
+908,78,Female,Elective,Heart Disease,Out-patient,14,1,0,2,8,Abnormal,53,Yes
+909,66,Female,Urgent,Injury,,26,0,4,2,7,,79,No
+910,18,Female,Emergency,Diabetes,,23,1,2,2,6,Normal,79,No
+911,30,Male,Urgent,Infection,Out-patient,9,0,4,0,1,,4,Yes
+912,68,Male,Urgent,Diabetes,Urgent,25,2,2,4,9,,96,Yes
+913,73,Female,Emergency,Injury,,14,3,1,2,3,Abnormal,23,No
+914,79,Male,Urgent,Injury,,3,1,3,3,5,,70,No
+915,49,Female,Urgent,Injury,In-patient,20,4,0,1,7,Abnormal,88,Yes
+916,47,Other,Elective,Heart Disease,In-patient,16,2,3,3,7,,84,Yes
+917,46,Other,Elective,Infection,In-patient,2,0,0,0,3,Normal,84,Yes
+918,66,Other,Emergency,Infection,,10,1,4,0,4,Abnormal,76,No
+919,62,Female,Emergency,Injury,Out-patient,3,0,4,3,7,Abnormal,33,Yes
+920,47,Other,Emergency,Injury,,11,0,0,4,8,,28,No
+921,33,Male,Elective,Heart Disease,,11,0,3,0,2,Normal,8,No
+922,57,Other,Emergency,Diabetes,Urgent,21,3,0,0,9,,1,Yes
+923,36,Other,Emergency,Diabetes,Emergency,21,3,1,3,7,Abnormal,37,Yes
+924,35,Other,Emergency,Infection,,22,4,4,0,8,,63,No
+925,18,Male,Elective,Heart Disease,Urgent,13,1,1,4,6,Abnormal,22,Yes
+926,64,Female,Urgent,Injury,,7,2,4,4,6,Normal,70,No
+927,83,Male,Emergency,Infection,Urgent,23,2,4,4,9,,21,Yes
+928,55,Female,Urgent,Heart Disease,In-patient,17,2,2,1,4,Abnormal,96,Yes
+929,68,Female,Emergency,Diabetes,Urgent,2,0,1,4,5,Abnormal,35,Yes
+930,80,Other,Urgent,Heart Disease,Emergency,12,3,1,4,9,Abnormal,79,Yes
+931,21,Female,Elective,Diabetes,,25,1,2,1,1,Abnormal,5,No
+932,18,Male,Elective,Heart Disease,,10,0,3,2,4,,60,No
+933,25,Male,Emergency,Infection,,18,3,1,0,7,Abnormal,46,No
+934,46,Female,Urgent,Diabetes,In-patient,22,3,0,4,9,,50,Yes
+935,72,Other,Elective,Infection,,27,1,2,0,6,Abnormal,48,No
+936,20,Other,Emergency,Infection,,11,1,1,3,8,,6,No
+937,49,Male,Emergency,Diabetes,,16,1,3,0,9,,89,No
+938,27,Other,Elective,Diabetes,Out-patient,17,0,1,1,4,Abnormal,56,Yes
+939,51,Female,Elective,Injury,,19,4,4,0,1,Abnormal,59,No
+940,72,Female,Emergency,Injury,Out-patient,18,1,0,0,8,Abnormal,29,Yes
+941,49,Male,Urgent,Injury,Urgent,3,4,2,0,2,Abnormal,71,Yes
+942,67,Female,Urgent,Infection,,21,0,4,2,1,Normal,77,No
+943,24,Male,Urgent,Infection,Out-patient,27,4,3,2,7,Abnormal,18,Yes
+944,25,Female,Emergency,Injury,,26,2,4,3,9,Abnormal,2,No
+945,82,Male,Elective,Infection,,16,4,4,1,9,Abnormal,8,No
+946,74,Other,Emergency,Infection,,6,1,3,0,3,,75,No
+947,84,Female,Elective,Diabetes,,25,0,4,0,6,Abnormal,97,No
+948,76,Female,Urgent,Diabetes,,12,1,2,0,7,,54,No
+949,71,Male,Urgent,Infection,In-patient,11,2,1,0,9,,38,Yes
+950,84,Male,Elective,Injury,,15,1,4,2,2,,48,No
+951,68,Female,Elective,Heart Disease,Urgent,15,1,2,3,8,,27,Yes
+952,25,Male,Emergency,Injury,,16,1,1,4,7,Normal,20,No
+953,51,Female,Urgent,Heart Disease,,10,3,1,1,4,Abnormal,12,No
+954,52,Other,Emergency,Injury,,12,2,4,0,2,,43,No
+955,49,Male,Emergency,Diabetes,In-patient,28,1,2,3,8,,61,Yes
+956,63,Female,Emergency,Infection,Out-patient,13,1,4,4,5,,31,Yes
+957,33,Other,Urgent,Infection,Urgent,4,1,3,3,6,Normal,91,Yes
+958,54,Other,Emergency,Diabetes,Emergency,7,0,1,2,7,,96,Yes
+959,71,Female,Emergency,Heart Disease,,22,3,4,4,1,Abnormal,61,No
+960,31,Male,Emergency,Heart Disease,,2,0,1,3,8,Abnormal,74,No
+961,72,Female,Emergency,Heart Disease,Emergency,26,3,2,2,4,Normal,67,Yes
+962,65,Other,Emergency,Diabetes,Urgent,27,1,0,3,9,Abnormal,91,Yes
+963,24,Female,Emergency,Heart Disease,Out-patient,27,2,4,3,1,Abnormal,35,Yes
+964,24,Male,Urgent,Diabetes,,27,4,4,4,2,,95,No
+965,50,Other,Emergency,Injury,Emergency,15,4,1,2,6,,15,Yes
+966,40,Female,Elective,Injury,In-patient,8,1,2,0,1,,16,Yes
+967,36,Male,Emergency,Diabetes,,7,0,3,1,4,Normal,13,No
+968,36,Other,Emergency,Infection,Emergency,15,2,2,4,8,Abnormal,35,Yes
+969,53,Male,Urgent,Injury,,23,3,4,2,5,,75,No
+970,46,Other,Urgent,Heart Disease,,14,1,3,3,9,Abnormal,59,No
+971,77,Female,Elective,Diabetes,,8,2,2,2,6,,21,No
+972,19,Male,Elective,Heart Disease,,28,2,0,1,1,Normal,54,No
+973,18,Other,Urgent,Heart Disease,,12,3,1,1,6,,75,No
+974,64,Male,Urgent,Infection,Urgent,13,2,2,0,6,Abnormal,30,Yes
+975,37,Male,Emergency,Heart Disease,In-patient,11,0,2,0,6,,48,Yes
+976,28,Female,Urgent,Infection,,17,0,0,1,8,Abnormal,35,No
+977,19,Male,Elective,Injury,,29,0,4,4,6,Normal,86,No
+978,84,Other,Emergency,Diabetes,Emergency,17,2,1,4,5,,38,Yes
+979,29,Other,Elective,Heart Disease,Emergency,24,0,2,3,2,,31,Yes
+980,37,Other,Emergency,Diabetes,,4,3,3,0,4,Abnormal,78,No
+981,22,Other,Urgent,Heart Disease,Out-patient,21,2,2,3,5,Abnormal,24,Yes
+982,54,Female,Elective,Diabetes,Emergency,8,4,1,0,4,,49,Yes
+983,55,Male,Emergency,Heart Disease,,5,2,2,1,2,,96,No
+984,26,Female,Emergency,Heart Disease,Urgent,26,3,0,4,7,,32,Yes
+985,70,Male,Urgent,Heart Disease,In-patient,16,4,2,4,2,Normal,55,Yes
+986,61,Male,Urgent,Heart Disease,Emergency,4,2,2,1,1,Abnormal,79,Yes
+987,41,Male,Urgent,Heart Disease,Urgent,28,0,3,3,5,,58,Yes
+988,47,Female,Elective,Heart Disease,,22,1,0,3,1,Normal,99,No
+989,76,Male,Emergency,Heart Disease,Out-patient,29,1,0,2,1,Normal,3,Yes
+990,31,Female,Urgent,Heart Disease,,15,0,2,0,1,,80,No
+991,26,Other,Elective,Heart Disease,Urgent,12,1,3,3,6,,69,Yes
+992,57,Other,Elective,Diabetes,,5,1,2,1,9,,85,No
+993,83,Male,Elective,Infection,,23,0,2,3,1,,10,No
+994,42,Female,Urgent,Heart Disease,Urgent,16,0,1,4,5,,83,Yes
+995,39,Other,Urgent,Infection,,14,2,1,0,9,,25,No
+996,21,Female,Emergency,Heart Disease,,10,2,3,2,9,Normal,68,No
+997,43,Female,Emergency,Heart Disease,,7,0,4,0,1,Normal,61,No
+998,75,Male,Urgent,Diabetes,,13,3,1,4,8,Normal,29,No
+999,46,Other,Elective,Injury,,20,1,4,4,1,Abnormal,19,No
+1000,54,Male,Elective,Injury,In-patient,28,2,0,4,8,Abnormal,43,Yes
